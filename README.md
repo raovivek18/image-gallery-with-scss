@@ -1,35 +1,66 @@
-# 📸 Image Gallery with SCSS
+# Image Gallery with SCSS
 
-A responsive image gallery with **hover animation effects** built using HTML and SCSS.
+A responsive image gallery with hover animation effects built using HTML and SCSS.
 
----
+## Description
 
-## ✨ Overview
+This project creates an interactive image gallery where images expand smoothly on hover. The gallery uses Flexbox for layout and SCSS for styling with smooth transitions.
 
-This project creates an **interactive image gallery** where individual image sections expand smoothly on hover. The gallery is designed to be fully responsive, leveraging CSS Flexbox for its flexible layout and SCSS for structured, maintainable styling with smooth transitions.
+## Features
 
----
+- Responsive layout using Flexbox
+- Smooth hover animations
+- CSS transitions with cubic-bezier timing
+- Five image sections that expand on hover
+- Mobile-friendly design
 
-## 🚀 Features
+## Technologies
 
-* **Responsive Layout:** Uses CSS Flexbox for a robust and mobile-friendly design.
-* **Smooth Hover Animations:** Images expand smoothly on hover using `flex-grow`.
-* **Performance:** Utilizes **CSS Transitions** with a `cubic-bezier` timing function for a professional, smooth effect.
-* **Structure:** Includes 5 distinct image sections that react to the hover state.
-* **Mobile-Friendly Design**
+- HTML5
+- SCSS / CSS
+- CSS Flexbox
 
----
+## Project Structure
 
-## 🛠️ Technologies Used
+```
+scss/
+├── index.html
+├── style.scss
+├── style.css
+└── assets/
+    ├── image1.jpg
+    ├── image2.jpeg
+    ├── image3.jpeg
+    ├── image4.jpeg
+    └── image5.jpeg
+```
 
-| Technology | Purpose |
-| :--- | :--- |
-| **HTML5** | Semantic structure for the gallery and sections. |
-| **SCSS/CSS** | Modular styling and compilation of all visual rules. |
-| **CSS Flexbox** | Primary method for handling the responsive layout. |
+## Setup
 
----
+1. Clone the repository:
+   git clone <repository-url>
+2. Navigate to the project folder:
+   cd scss
+3. Install or use an SCSS compiler (e.g., Dart Sass).
+4. Compile SCSS to CSS:
+   sass style.scss style.css
+5. Open `index.html` in your browser.
 
-## 📂 Project Structure
+## How it Works
 
-A quick look at the main file organization:
+- Flexbox arranges gallery items horizontally.
+- Each item uses `flex-grow` to expand on hover.
+- Transitions use a cubic-bezier timing function for smooth animation.
+- Background images use `background-position: center` and `background-size: cover`.
+
+## Styling Details
+
+- Reset margins and padding to zero.
+- Full-viewport gallery layout.
+- 10px gap between items.
+- 0.75s smooth transition on hover.
+- Subtle borders and overflow handling for visual polish.
+
+## Browser Support
+
+Works in modern browsers that support Flexbox, CSS transitions, and background images.
