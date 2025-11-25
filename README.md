@@ -2,7 +2,7 @@
 
 A responsive image gallery with hover animation effects built using HTML and SCSS.
 
-##Demo
+Demo
 https://image-gallery-with-scss-nkznvf69n-vivek-crews-projects.vercel.app/
 
 ## Description
@@ -67,4 +67,5 @@ scss/
 ## Browser Support
 
 Works in modern browsers that support Flexbox, CSS transitions, and background images.
+
 
